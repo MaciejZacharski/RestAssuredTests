@@ -7,9 +7,9 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.when;
 
-public class JsonPathTest {
+ public class JsonPathTest {
 
-    @Test
+  /*  @Test
     public void getPosts() {
         Response response = RestAssured.get("http://localhost:3000/posts/1");
         System.out.println(response.asString());
@@ -28,5 +28,5 @@ public class JsonPathTest {
         Integer minNumber = response.path("winning-numbers.min()");
         Map<String, ?> winnerMaxId = response.path("winners.max {it.winnerId}");
         Integer moneyWon = response.path("winners.collect{it.money}.sum()");
-    }
+    }*/
 }

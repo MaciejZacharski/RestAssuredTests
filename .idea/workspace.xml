@@ -5,29 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96524d59-514d-490b-9dde-83d673e9ee30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Post.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/AddPostTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/DeletePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/FilterPosts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/GetPostsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/GetSpecificFieldValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/JsonPathTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/TestRestAssured.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/UpdatePost.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/VerifyResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/test/model/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +70,12 @@
     "TestNG.VerifyResponse.getPostCheckByObject.executor": "Run",
     "TestNG.VerifyResponse.getPostObject.executor": "Run",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.JsonPathTest.getPosts">
+  <component name="RunManager" selected="TestNG.&lt;default&gt;">
     <configuration name="GetSpecificFieldValue.checkSpecificField" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPI" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,18 +93,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GetSpecificFieldValue" />
       <option name="METHOD_NAME" value="checkSpecificFieldJsonPath" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JsonPathTest.getPosts" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="JsonPathTest" />
-      <option name="METHOD_NAME" value="getPosts" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -157,9 +124,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPI" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificField" />
+      <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificFieldJsonPath" />
+      <item itemvalue="TestNG.&lt;default&gt;" />
+      <item itemvalue="TestNG.VerifyResponse.addPostByObject" />
+      <item itemvalue="TestNG.VerifyResponse.getPostCheckByObject" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JsonPathTest.getPosts" />
+        <item itemvalue="TestNG.&lt;default&gt;" />
         <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificFieldJsonPath" />
         <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificField" />
         <item itemvalue="TestNG.VerifyResponse.addPostByObject" />
@@ -183,6 +176,19 @@
       <option name="presentableId" value="Default" />
       <updated>1707418309849</updated>
     </task>
+    <task id="LOCAL-00001" summary="Rest Assured Basics">
+      <option name="closed" value="true" />
+      <created>1707851175259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707851175259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Rest Assured Basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Assured Basics" />
   </component>
 </project>
