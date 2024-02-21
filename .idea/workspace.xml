@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96524d59-514d-490b-9dde-83d673e9ee30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Post.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/AddPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddPostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/DeletePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeletePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/FilterPosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FilterPostsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/GetPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPostsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/GetSpecificFieldValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetSpecificFieldValueTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/JsonPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/TestRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/UpdatePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UpdatePostTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/VerifyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VerifyResponseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Post.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/test/model/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/RandomMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,12 +206,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708501131783</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Rest Assured Tests fix">
+      <option name="closed" value="true" />
+      <created>1708503163039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708503163039</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rest Assured Basics" />
     <MESSAGE value="Rest Assured Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest Assured Tests" />
+    <MESSAGE value="Rest Assured Tests fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Assured Tests fix" />
   </component>
 </project>
