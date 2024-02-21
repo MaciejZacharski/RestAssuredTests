@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.given;
 import static io.restassured.RestAssured.when;
 
-public class VerifyResponse {
+public class VerifyResponseTest {
 
 
     @Test
@@ -39,12 +39,12 @@ public class VerifyResponse {
     public void checkSpecificField() {
 
 
-                when()
-                        .get("http://localhost:3000/posts/{postId}", 1)
+        when()
+                .get("http://localhost:3000/posts/{postId}", 1)
                 .then()
-                        .log().all().body("author", Matchers.equalTo("Jane"))
+                .log().all().body("author", Matchers.equalTo("Jane"))
                 .and()
-                        .body("title", Matchers.equalToIgnoringCase("Updated Post"));
+                .body("title", Matchers.equalToIgnoringCase("Updated Post"));
     }
 
     @Test

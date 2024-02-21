@@ -1,13 +1,10 @@
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
-import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import static io.restassured.RestAssured.when;
-
-public class GetSpecificFieldValue {
+public class GetSpecificFieldValueTest {
 
 
     @Test

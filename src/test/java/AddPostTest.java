@@ -5,10 +5,8 @@ import org.testng.annotations.Test;
 import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 
 public class AddPostTest {
 
@@ -27,7 +25,7 @@ public class AddPostTest {
 
     @Test
     public void addPostFromFile() {
-        File newPost = new File("src/main/resources/post.json");
+        File newPost = new File("src/test/resources/post.json");
 
 
         given().log().all().contentType(ContentType.JSON).body(newPost)

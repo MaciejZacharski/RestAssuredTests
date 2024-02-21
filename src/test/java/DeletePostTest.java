@@ -2,7 +2,7 @@ import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.when;
 
-public class DeletePost {
+public class DeletePostTest {
 
     @Test
     public void DeletePost() {

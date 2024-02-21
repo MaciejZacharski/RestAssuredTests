@@ -1,13 +1,4 @@
-import io.restassured.RestAssured;
-import io.restassured.response.Response;
-import org.testng.annotations.Test;
-
-import java.util.List;
-import java.util.Map;
-
-import static io.restassured.RestAssured.when;
-
- public class JsonPathTest {
+public class JsonPathTest {
 
   /*  @Test
     public void getPosts() {

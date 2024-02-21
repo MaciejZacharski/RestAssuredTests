@@ -1,6 +1,6 @@
 import io.restassured.RestAssured;
 
-public class TestRestAssured {
+public class RestAssuredTest {
 
     public static void main(String[] args) {
         RestAssured.config();

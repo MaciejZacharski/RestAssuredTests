@@ -1,4 +1,3 @@
-import io.restassured.http.ContentType;
 import model.Post;
 import org.testng.annotations.Test;
 
@@ -7,7 +6,7 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class UpdatePost {
+public class UpdatePostTest {
 
 
     @Test

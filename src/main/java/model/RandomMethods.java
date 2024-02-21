@@ -1,9 +1,9 @@
 package model;
 
-import org.testng.annotations.Test;
+
 
 public class RandomMethods {
-    @Test
+    /*@Test
     public void countPercent() {
         double kasa = 50000;
 
@@ -28,5 +28,5 @@ public class RandomMethods {
         }
 
 
-    }
+    }*/
 }

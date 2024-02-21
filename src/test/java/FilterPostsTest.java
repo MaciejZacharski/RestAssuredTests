@@ -3,11 +3,10 @@ import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.regex.Matcher;
 
 import static io.restassured.RestAssured.given;
 
-public class FilterPosts {
+public class FilterPostsTest {
 
 
     @Test

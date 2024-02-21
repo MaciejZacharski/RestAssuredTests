@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96524d59-514d-490b-9dde-83d673e9ee30" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Post.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Post.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/AddPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AddPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/DeletePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DeletePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/FilterPosts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FilterPostsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/GetPostsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetPostsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/GetSpecificFieldValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetSpecificFieldValueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/JsonPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JsonPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/TestRestAssured.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssuredTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/UpdatePost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UpdatePostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/VerifyResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/VerifyResponseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/model/Post.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/Post.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/model/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/RandomMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +58,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.<default>.executor": "Run",
     "TestNG.AddPostTest.addPost.executor": "Run",
     "TestNG.AddPostTest.addPostByObject.executor": "Run",
     "TestNG.AddPostTest.addPostFromFile.executor": "Run",
@@ -72,14 +87,39 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.&lt;default&gt;">
-    <configuration name="GetSpecificFieldValue.checkSpecificField" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC\Desktop\Selenium kurs\AplikacjaHotelowaTesty\RestAssuredAPI\src\test" />
+      <recent name="C:\Users\PC\Desktop\Selenium kurs\AplikacjaHotelowaTesty\RestAssuredAPI\src\main\test" />
+      <recent name="C:\Users\PC\Desktop\Selenium kurs\AplikacjaHotelowaTesty\RestAssuredAPI\src\main\test\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AddPostTest.addPostFromFile">
+    <configuration name="AddPostTest.addPostFromFile" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPI" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetSpecificFieldValue" />
+      <option name="MAIN_CLASS_NAME" value="AddPostTest" />
+      <option name="METHOD_NAME" value="addPostFromFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetSpecificFieldValueTest.checkSpecificField" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAssuredAPI" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GetSpecificFieldValueTest" />
       <option name="METHOD_NAME" value="checkSpecificField" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -88,10 +128,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetSpecificFieldValue.checkSpecificFieldJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetSpecificFieldValueTest.checkSpecificFieldJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPI" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GetSpecificFieldValue" />
+      <option name="MAIN_CLASS_NAME" value="GetSpecificFieldValueTest" />
       <option name="METHOD_NAME" value="checkSpecificFieldJsonPath" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -100,23 +140,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyResponse.addPostByObject" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="VerifyResponseTest.addPostByObject" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="RestAssuredAPI" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerifyResponse" />
+      <option name="MAIN_CLASS_NAME" value="VerifyResponseTest" />
       <option name="METHOD_NAME" value="addPostByObject" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerifyResponse.getPostCheckByObject" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="RestAssuredAPI" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="VerifyResponse" />
-      <option name="METHOD_NAME" value="getPostCheckByObject" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,19 +172,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificField" />
-      <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificFieldJsonPath" />
+      <item itemvalue="TestNG.AddPostTest.addPostFromFile" />
+      <item itemvalue="TestNG.GetSpecificFieldValueTest.checkSpecificFieldJsonPath" />
+      <item itemvalue="TestNG.GetSpecificFieldValueTest.checkSpecificField" />
       <item itemvalue="TestNG.&lt;default&gt;" />
-      <item itemvalue="TestNG.VerifyResponse.addPostByObject" />
-      <item itemvalue="TestNG.VerifyResponse.getPostCheckByObject" />
+      <item itemvalue="TestNG.VerifyResponseTest.addPostByObject" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddPostTest.addPostFromFile" />
         <item itemvalue="TestNG.&lt;default&gt;" />
-        <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificFieldJsonPath" />
-        <item itemvalue="TestNG.GetSpecificFieldValue.checkSpecificField" />
-        <item itemvalue="TestNG.VerifyResponse.addPostByObject" />
-        <item itemvalue="TestNG.VerifyResponse.getPostCheckByObject" />
+        <item itemvalue="TestNG.GetSpecificFieldValueTest.checkSpecificFieldJsonPath" />
+        <item itemvalue="TestNG.GetSpecificFieldValueTest.checkSpecificField" />
+        <item itemvalue="TestNG.VerifyResponseTest.addPostByObject" />
       </list>
     </recent_temporary>
   </component>
@@ -184,11 +212,20 @@
       <option name="project" value="LOCAL" />
       <updated>1707851175259</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Rest Assured Tests">
+      <option name="closed" value="true" />
+      <created>1708501131783</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708501131783</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rest Assured Basics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest Assured Basics" />
+    <MESSAGE value="Rest Assured Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Assured Tests" />
   </component>
 </project>
